@@ -48,13 +48,19 @@ background-repeat: no-repeat;
     background-size: cover;
 
 }
-.signin-container{
+
+.signin-container ,.signup-container{
   width: 100%;
   max-width: 800px;
   margin-left: 410px;
   padding: 7rem;
 }
-
+.signup-container{
+color: white;
+}
+.text-muted {
+  color: wheat;
+}
 .form-control{
   max-width: 800px;
   margin-left: 22%;
@@ -65,7 +71,12 @@ background-repeat: no-repeat;
 .form-check{
   padding-inline: 7rem;
   margin-inline: 10rem;
-} 
+}
+
+.card{
+margin-top: 3rem;
+
+}
 
 @keyframes App-logo-spin {
   from {

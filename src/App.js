@@ -36,8 +36,8 @@ function App() {
                 />
                 <Route
                     
-                    path="/SignIn"
-                    element={<Register />}
+                    path="/Register"
+                    element={<Register/>}
                 />       
 
                     </Routes>
